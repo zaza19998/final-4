@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+button{
+    background: none;
+    border: none;
+}
+footer{
+    background: #74C69D;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 86px;
+    position: fixed;
+    bottom: 0;
+}
+@font-face {
+    font-family: Crimson-Text;
+    src: url(./../font/CrimsonText-Bold.ttf);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#74C69D;
+    height: 127px;
+    width: 100%;
+}
+.box-header{
+    width: 1175px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-item-box-ul{
+    display: flex;
+    gap: 30px;
+}
+.text-item-contact{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    
+}
+.text-item-contact a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.text-item a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.button-burger{
+    display: none;
+}
+
+/* container text */
+
+.container-text{
+    margin-top: 35px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.text-h3-box{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.text-h1-box{
+    color: #000;
+    margin-top: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Crimson-Text', serif;
+}
+.text-p-box{
+    color: #000;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    width: 375px;
+    
+}
+/* map */
+.contact-us{
+    margin-top: 57px;
+    display: flex;
+    justify-content: center;
+}
+.input-wraper{
+    display: flex;
+    width: 1175px;
+    align-items: center; 
+    gap: 30px;  
+}
+iframe{
+    width: 575px;
+    height: 364px;
+}
+form{
+width: 607px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group input{
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #EEE;
+    box-shadow: none;
+    outline: none;
+    height: 38px;
+    margin-top: 16px;
+    margin-bottom: 21px;
+    padding-left: 5px;
+}
+.form-group label{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+.form-group textarea{
+    width: 575px;
+    height: 75px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #EEE;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    box-shadow: none;
+    outline: none;
+    padding-left: 5px;
+}
+.form-group .submit-input{
+    background: #212529;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 0;
+}
+
+/* footer */
+
+.box-footer{
+    
+    width: 1175px;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-footer div{
+    display: flex;
+    gap: 20px;
+}
+.span-text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+@media all and (max-width: 992px){
+    header .box-header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    header .button-burger{
+        display: block;
+    }
+    header .text-item-box-ul{
+        display: none;
+    }
+    .text-h1-box{
+        font-size: 24px;
+    }
+    .box-footer{
+        height: 125px;
+    }
+    .container-box{
+        gap: 50px;
+        
+    }
+    .social-icon{
+        margin: 0;
+    }
+    .box-footer{
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+    }
+    .box-footer div{
+        display: flex;
+        gap: 20px;
+    }
+    .box-footer .span-text{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .input-wraper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .contact-us{
+        width: 100%;
+
+    }
+    form{
+        width: calc(100% - 40px);
+    }
+    .form-group textarea{
+        width: 100%;
+    }
+    .form-group{
+        width: 100%;
+    }
+    .input-wraper{
+        flex-direction: column-reverse;
+    }
+    iframe{
+        width: 340px;
+        height: 324px;
+    }
+    .map img{
+        width: 100%;
+    }
+    footer{
+        position: relative;
+    }
+
+    }
+    
+
+@media all and (max-width: 1440px){
+
+}

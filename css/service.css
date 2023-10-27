@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+button{
+    background: none;
+    border: none;
+}
+footer{
+    background: #74C69D;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 135px;
+}
+@font-face {
+    font-family: Crimson-Text;
+    src: url(./../font/CrimsonText-Bold.ttf);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#74C69D;
+    height: 127px;
+    width: 100%;
+}
+.box-header{
+    width: 1175px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-item-box-ul{
+    display: flex;
+    gap: 30px;
+}
+.text-item-service{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+.text-item-service a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.text-item a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.button-burger{
+    display: none;
+}
+
+/* container text */
+
+.container-text{
+    margin-top: 35px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.text-h3-box{
+    color: #74C69D;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.text-h1-box{
+    color: #000;
+    margin-top: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Crimson-Text', serif;
+}
+.text-p-box{
+    color: #000;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    width: 401px;
+}
+/* container price */
+
+.container-box{
+    gap: 105px;
+    margin-top: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-box-item{
+    width: 339px;
+    min-width: 339px;
+    height: 553px;
+    box-shadow: 3px 4px 12px 1px rgba(32, 28, 28, 0.25);
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.text-h4-box{
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 46px;
+    
+}
+.text-box-h1{
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.text-span{
+    color: rgba(33, 37, 41, 0.50);
+    font-size: 15px;
+    font-weight: 400;
+}
+.text-box-p{
+    color: rgba(33, 37, 41, 0.50);
+    width: 269px;
+    height: 37px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.text-ul-item{
+    margin-top: 52px;
+}
+.text-li-item{
+    color: #212529;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 11px 30px;
+}
+.text-li-item img{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-right: 11px;
+}
+
+.button-box{
+    background: #212529;
+    color: #fff;
+    width: 170px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* footer */
+
+.box-footer{
+    
+    width: 1175px;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.box-footer div{
+    display: flex;
+    gap: 20px;
+}
+.span-text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+@media all and (max-width: 992px){
+    header .box-header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    header .button-burger{
+        display: block;
+    }
+    header .text-item-box-ul{
+        display: none;
+    }
+    .text-h1-box{
+        font-size: 24px;
+    }
+    .container-box{
+        align-items: center;
+        flex-direction: column;
+    }
+    .box-footer{
+        height: 125px;
+    }
+    .container-box-item{
+        margin: 13px;
+    }
+    .container-box{
+        gap: 50px;
+        
+    }
+    .social-icon{
+        margin: 0;
+    }
+    .box-footer{
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        
+    }
+    .box-footer div{
+        display: flex;
+        gap: 20px;
+    }
+    .box-footer .span-text{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+}
+
+@media all and (max-width: 1440px){
+
+}
